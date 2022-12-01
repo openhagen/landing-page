@@ -3,12 +3,13 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    font-family: Tahoma, Arial, sans-serif;
+    font-family: 'Roboto', 'Arial', sans-serif;
     color: #f9faf8;
 }
 
 .header,.bar1 {
     display: flex;
+    flex: auto;
     background-color: #1f2937;
 }
 
@@ -52,6 +53,7 @@ margin: 10px;
 }
 
 .right {
+    max-width: auto;
     max-width: 410px;
 }
 
@@ -106,6 +108,13 @@ margin: 10px;
     padding: 140px;
     display: flex;
     justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
 }
 
 .bar4 {
