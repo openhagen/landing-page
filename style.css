@@ -148,6 +148,7 @@ max-width: 500px;
     display: flex;
     justify-content: center;
     padding: 50px;
+    margin: 0px;
 }
 
 .footer {
@@ -155,4 +156,22 @@ max-width: 500px;
     padding: 30px;
     display: flex;
     justify-content: center;
+}
+
+.actionbackground {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 30px; 
+}
+
+.action {
+    font-size: 22px;
+}
+
+.signup.low {
+    min-width: 120px;
+    max-height: 50px;
+    border: 2px solid;
 }
